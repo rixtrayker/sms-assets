@@ -1,0 +1,326 @@
+/*
+Theme Name: Globals - Material and Bootstrap HTML template
+Module : Finance
+Description: Custom styles are defined in this class
+Author: Jyostna
+Author URI: http://themeforest.net/user/jyostna
+Version: 1.0 
+-------------------------------------------- */
+
+
+/*
+TABLE OF CONTENT
+-------------------------------------------------
+1- FINANCE MODULE STYLES
+---------------------------------------------- */
+
+
+/*==========================FINANCE MODULE STYLES =======================*/
+
+.slider-img-left {
+    left: -6%;
+    position: relative;
+}
+
+.slider-img-left2 {
+    left: -14%;
+    position: relative;
+}
+
+.da-slider {
+    background: transparent url(../image/about-slider/background.png) repeat 0% 0%;
+    height: 300px;
+}
+
+@media screen and (min-width: 610px) {
+    .da-slider {
+        background: transparent url(../image/about-slider/background.png) repeat 0% 0%;
+        height: 600px;
+    }
+}
+
+@media(max-width:425px) {
+    .follow-dribbble {
+        margin-top: 5px;
+    }
+}
+
+.slotholder {
+    /*height: 86% !important;*/
+}
+
+.grey_regular_18 {
+    font-size: 18px !important;
+}
+
+@media screen and (min-width: 610px) {
+    .grey_regular_18 {
+        font-size: 16px !important;
+    }
+}
+
+.back-img {
+    height: 600px !important;
+}
+
+.largeredbtn {
+    background: #ccdb38 !important;
+    border-radius: 28px !important;
+    font-weight: normal;
+    font-family: 'roboto', sans-serif;
+    padding: 12% 30.8%!important;
+    color: #ffffff !important;
+}
+
+.largeredbtn:hover {
+    background: #000 !important;
+}
+
+.man-img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+/*about.html css end*/
+
+
+/*section6 payment*/
+
+.our-investment {
+    background-color: #fafafa;
+    padding-bottom: 5%;
+}
+
+.investment-heading {
+    color: #31364c;
+    font-size: 45px;
+    margin-top: 6.3%;
+    padding-bottom: 10px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+}
+
+.investment-text {
+    color: #9699a6;
+    font-size: 16px;
+}
+
+.investment-plan1 {
+    background-color: #ccdb38;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.investment-plan2 {
+    background-color: #8bc34a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.investment-plan3 {
+    background-color: #4caf50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.investment-plan4 {
+    background-color: #009688;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.plan1-heading {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 17px !important;
+}
+
+.plan1-text {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.plan1-btn {
+    background-color: #252525 !important;
+    color: #ffffff !important;
+    width: 170px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+.plan1-btn:hover {
+    background-color: #93c25e !important;
+    color: #ffffff;
+}
+
+.apply-icon {
+    position: relative;
+    top: 1px;
+    bottom: 0;
+    font-size: 14px;
+    left: 5px;
+}
+
+.apply-btn {
+    margin-top: 66px;
+}
+
+.increment-heading {
+    color: #ffffff;
+}
+
+.spincrement {
+    color: #ffffff;
+    font-size: 65px;
+    opacity: 1;
+    margin-left: 20px;
+}
+
+.percent {
+    top: 10px;
+    position: relative;
+    color: #ffffff;
+    font-size: 65px;
+}
+
+.month {
+    margin-top: 9px;
+    margin-left: 26px;
+    position: relative;
+    top: -10px;
+    color: #ffffff;
+}
+
+.flag-icon {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    background-color: #e0e0d1;
+}
+
+.fa-flag {
+    color: #c75c5c;
+    font-size: 72px;
+    margin-left: 30px;
+    margin-top: 31px;
+}
+
+
+/*section6 payment closed*/
+
+.lorem-text {
+    background-color: #fafafa;
+    padding-bottom: 6.4%;
+    padding-top: 4%;
+}
+
+.lorem-p {
+    color: #9ea1ac;
+    font-size: 16px;
+}
+
+.star {
+    color: red;
+    font-size: 18px;
+}
+
+.nes a {
+    color: #31364c !important;
+    text-decoration: none;
+}
+
+.nes a:hover {
+    color: #93c25e !important;
+    text-decoration: none;
+}
+
+.nesc a {
+    color: #9699a6 !important;
+    text-decoration: none;
+}
+
+.nesc a:hover {
+    color: #93c25e !important;
+    text-decoration: none;
+}
+
+
+/*investment.html css end*/
+
+
+/*dropdown.html css*/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover {
+    overflow: visible;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.header2 {
+    margin-top: 20%;
+}
+
+.header3 {
+    margin-top: 40%;
+}
+
+.login-now-btn {
+    background-color: #25292c !important;
+    color: #ffffff !important;
+    font-size: 16px;
+    height: 54px;
+    width: 100%;
+    border-radius: 26px;
+    margin-top: 13.4%;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.h1, .h2, .h3, .h4, 
+body, h1, h2, h3, h4, h5, h6, input, 
+.footer-heading-p, .follow-h, .footer-heading-p, .footer-col1{
+    font-family: 'Droid Arabic Kufi',Roboto, sans-serif;
+}
+
+/*==========================FINANCE MODULE STYLES END =======================*/
